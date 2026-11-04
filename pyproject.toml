@@ -1,6 +1,6 @@
 [project]
 name = "rekordbox-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP server for rekordbox database management with real-time database access"
 readme = "README.md"
 license = "MIT"
@@ -19,7 +19,7 @@ classifiers = [
     "Topic :: Multimedia :: Sound/Audio",
 ]
 dependencies = [
-    "fastmcp>=2.11.0",
+    "fastmcp>=4.1.6,<5",
     "pyrekordbox>=0.4.3",
     "pydantic>=2.0.0",
     "loguru>=0.7.0",
